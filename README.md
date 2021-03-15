@@ -1,4 +1,4 @@
-![alt text](https://wa.cdn-surfline.com/quiver/0.4.0/apple/surfline-apple-touch-icon.png)
+![alt text](https://www.pacioos.hawaii.edu/wp-content/uploads/2018/07/news-surfline-new-partner-672x350.png)
 
 # Introduction
 
