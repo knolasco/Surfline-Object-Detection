@@ -9,3 +9,6 @@ Surfline is a tech company based in Huntington Beach, CA. Surfline offers a vari
 ### Requirements.txt
 This text file defines the packages used for this project.
 
+### Wave_Detection.ipynb
+This is a Google Colab notebook that I used to perform transfer learning. Since I used a deep neural network for this project, I wanted to use the free GPU that is offered by Google Colab to speed up the processing time.
+
