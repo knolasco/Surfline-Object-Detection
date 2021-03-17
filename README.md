@@ -14,3 +14,9 @@ This is a Google Colab notebook that I used to perform transfer learning. Since 
 
 ### Wave_Detection.py
 This python script loads the model from the Google Colab notebook and uses OpenCV to detect waves in real time.
+
+### Preprocess_Images.ipynb
+This is a Google Colab notebook where I experimented with preprocessing the train/test images. The model that was used for the GIF above did not use these preprocessed images, but this technique could be used to improve the accuracy of the model.
+
+### Flip_and_save.py
+This python script was used to flip all of the train/test images. The images that were used to train the model contained more "rights" than "lefts" which could make the model biased towards rights. The reason there were more rights is because Southern California currently has a NW swell, which causes waves to break towards the right more often than to the left. The model could be trained again to include the original images and the flipped images to avoid the bias and make the model generalize better.
