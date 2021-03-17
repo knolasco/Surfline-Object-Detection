@@ -1,6 +1,4 @@
-
-https://user-images.githubusercontent.com/66560796/111403807-e3c6d680-868a-11eb-9a99-228837d4f40e.mp4
-
+![Clip_for_LinkedIn2](https://user-images.githubusercontent.com/66560796/111404254-af074f00-868b-11eb-8447-4631976df973.gif)
 
 # Introduction
 
