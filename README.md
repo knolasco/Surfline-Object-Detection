@@ -6,6 +6,9 @@ Surfline is a tech company based in Huntington Beach, CA. Surfline offers a vari
 
 # Description of Files
 
+### Centroid_Tracker.py
+This python script utilizes a Centroid Tracking algorithm to record the number of waves and the average length of each wave. 
+
 ### Requirements.txt
 This text file defines the packages used for this project.
 
