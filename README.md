@@ -6,23 +6,23 @@ Surfline is a tech company based in Huntington Beach, CA. Surfline offers a vari
 
 # Description of Files
 
-### Centroid_Tracker.py
+### [Centroid_Tracker.py](https://github.com/knolasco/Surfline-Object-Detection/blob/main/Centroid_Tracker.py)
 This python script utilizes a Centroid Tracking algorithm to record the number of waves and the average length of each wave. 
 
-### Centroid_Trim.GIF
+### [Centroid_Trim.GIF](https://github.com/knolasco/Surfline-Object-Detection/blob/main/centoid_Trim.gif)
 This is a GIF of the results of applying the Centroid_Tracker.py script. As you can see, it is counting the lefts and rights in real time.
 
 ### Requirements.txt
 This text file defines the packages used for this project.
 
-### Wave_Detection.ipynb
+### [Wave_Detection.ipynb](https://github.com/knolasco/Surfline-Object-Detection/blob/main/Wave_Detection.ipynb)
 This is a Google Colab notebook that I used to perform transfer learning. Since I used a deep neural network for this project, I wanted to use the free GPU that is offered by Google Colab to speed up the processing time.
 
-### Wave_Detection.py
+### [Wave_Detection.py](https://github.com/knolasco/Surfline-Object-Detection/blob/main/Wave_Detection.py)
 This python script loads the model from the Google Colab notebook and uses OpenCV to detect waves in real time.
 
-### Preprocess_Images.ipynb
+### [Preprocess_Images.ipynb](https://github.com/knolasco/Surfline-Object-Detection/blob/main/Preprocess_Images.ipynb)
 This is a Google Colab notebook where I experimented with preprocessing the train/test images. The model that was used for the GIF above did not use these preprocessed images, but this technique could be used to improve the accuracy of the model.
 
-### Flip_and_save.py
+### [Flip_and_save.py](https://github.com/knolasco/Surfline-Object-Detection/blob/main/flip_and_save.py)
 This python script was used to flip all of the train/test images. The images that were used to train the model contained more "rights" than "lefts" which could make the model biased towards rights. The reason there were more rights is because Southern California currently has a NW swell, which causes waves to break towards the right more often than to the left. The model could be trained again to include the original images and the flipped images to avoid the bias and make the model generalize better.
