@@ -10,8 +10,6 @@ Surfline is a tech company based in Huntington Beach, CA. Surfline offers a vari
 This python script utilizes a Centroid Tracking algorithm to record the number of waves and the average length of each wave. 
 ## [Results of Centroid Tracker](https://user-images.githubusercontent.com/66560796/114232849-5dbc4980-9931-11eb-9525-e40d451e8a03.mp4)
 
-### [Centroid_Trim.GIF](https://github.com/knolasco/Surfline-Object-Detection/blob/main/centoid_Trim.gif)
-This is a GIF of the results of applying the Centroid_Tracker.py script. As you can see, it is counting the lefts and rights in real time.
 
 ### Requirements.txt
 This text file defines the packages used for this project.
